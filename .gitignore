@@ -12,7 +12,9 @@ $RECYCLE.BIN/
 *.cab
 *.msi
 *.msm
+*.config
 *.msp
+*.class
 
 # Windows shortcuts
 *.lnk
