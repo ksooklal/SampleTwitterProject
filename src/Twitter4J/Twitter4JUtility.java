@@ -1,4 +1,4 @@
-package Twitter4JExample;
+package Twitter4J;
 
 import java.io.BufferedReader;
 import java.io.FileReader;

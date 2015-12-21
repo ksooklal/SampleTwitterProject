@@ -1,7 +1,8 @@
-package nba;
+package NBA;
 
 import java.util.ArrayList;
-import Twitter4JExample.Twitter4JUtility;
+
+import Twitter4J.Twitter4JUtility;
 
 public class NBAAllStarTwitterVotingUtility {	
 	private static final String [] EASTERN_CONFERENCE_PLAYERS = new String [] 

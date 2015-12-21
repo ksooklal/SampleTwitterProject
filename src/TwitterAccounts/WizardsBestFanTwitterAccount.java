@@ -1,7 +1,7 @@
 package TwitterAccounts;
 
-import Twitter4JExample.Twitter4JUtility;
-import nba.NBAAllStarTwitterVotingUtility;
+import NBA.NBAAllStarTwitterVotingUtility;
+import Twitter4J.Twitter4JUtility;
 
 public class WizardsBestFanTwitterAccount{
 	public static final String TWITTER_HANDLE = "wizardsbestfan";
