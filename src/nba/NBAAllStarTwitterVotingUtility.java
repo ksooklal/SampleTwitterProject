@@ -4,11 +4,11 @@ import java.util.ArrayList;
 
 import Twitter4J.Twitter4JUtility;
 
-public class NBAAllStarTwitterVotingUtility {	
-	private static final String [] EASTERN_CONFERENCE_PLAYERS = new String [] 
+public final class NBAAllStarTwitterVotingUtility {	
+	public static final String [] EASTERN_CONFERENCE_PLAYERS = new String [] 
 			{"John Wall", "Bradley Beal", "Marcin Gortat", "Gary Neal", "Jared Dudley",
 					"Kris Humphries", "Ramon Sessions", "Garrett Temple"};
-	private static final String [] WESTERN_CONFERENCE_PLAYERS = new String []
+	public static final String [] WESTERN_CONFERENCE_PLAYERS = new String []
 			{"Kobe Bryant", "Trevor Ariza"};
 	
 	public static ArrayList<String> get2016EasternConferenceTweets(){
@@ -34,7 +34,6 @@ public class NBAAllStarTwitterVotingUtility {
 	}
 	
 	public static void sendNBATweets(String twitterHandle) {
-
 		for (String tweet: getNBATweets()){
 			Twitter4JUtility.publishTweet(tweet, twitterHandle);
 		}
