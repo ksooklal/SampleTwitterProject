@@ -10,23 +10,6 @@ import twitter4j.auth.AccessToken;
 public class Twitter4JUtility {
 	private static final String CONFIG_FILE_PATH = "resources/api.config";
 
-	public static void main (String [] args){
-		System.out.println(getConsumerKey("kristiansooklal"));
-		System.out.println(getConsumerSecret("kristiansooklal"));
-		System.out.println(getAccessToken("kristiansooklal"));
-		System.out.println(getAccessTokenSecret("kristiansooklal"));
-
-		System.out.println(getConsumerKey("wizardsbestfan"));
-		System.out.println(getConsumerSecret("wizardsbestfan"));
-		System.out.println(getAccessToken("wizardsbestfan"));
-		System.out.println(getAccessTokenSecret("wizardsbestfan"));
-
-		System.out.println(getConsumerKey("KSOOonYFinance"));
-		System.out.println(getConsumerSecret("KSOOonYFinance"));
-		System.out.println(getAccessToken("KSOOonYFinance"));
-		System.out.println(getAccessTokenSecret("KSOOonYFinance"));
-	}
-	
 	public static boolean publishTweet(String tweet, String twitterHandle){
 		try {
 			final String consumerKey = getConsumerKey(twitterHandle);

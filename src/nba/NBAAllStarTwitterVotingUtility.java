@@ -1,4 +1,4 @@
-package NBA;
+package nba;
 
 import java.util.ArrayList;
 
@@ -6,10 +6,10 @@ import Twitter4J.Twitter4JUtility;
 
 public final class NBAAllStarTwitterVotingUtility {	
 	public static final String [] EASTERN_CONFERENCE_PLAYERS = new String [] 
-			{"John Wall", "Bradley Beal", "Marcin Gortat", "Gary Neal", "Jared Dudley",
-					"Kris Humphries", "Ramon Sessions", "Garrett Temple"};
+			{"John Wall", "Bradley Beal", "Marcin Gortat", "Otto Porter", "Markieff Morris",
+					"Trey Burke", "Jason Smith", "Tomas Satoransky"};
 	public static final String [] WESTERN_CONFERENCE_PLAYERS = new String []
-			{"Kobe Bryant", "Trevor Ariza"};
+			{"Trevor Ariza", "Zaza Pachulia"};
 	
 	public static ArrayList<String> get2016EasternConferenceTweets(){
 		ArrayList<String> tweets = new ArrayList<String>();

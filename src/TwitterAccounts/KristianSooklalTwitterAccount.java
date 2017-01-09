@@ -1,7 +1,7 @@
 package TwitterAccounts;
 
-import NBA.NBAAllStarTwitterVotingUtility;
 import Twitter4J.Twitter4JUtility;
+import nba.NBAAllStarTwitterVotingUtility;
 
 public class KristianSooklalTwitterAccount{
 	

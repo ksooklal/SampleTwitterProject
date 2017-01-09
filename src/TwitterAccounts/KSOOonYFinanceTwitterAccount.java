@@ -1,6 +1,6 @@
 package TwitterAccounts;
 
-import NBA.NBAAllStarTwitterVotingUtility;
+import nba.NBAAllStarTwitterVotingUtility;
 import Twitter4J.Twitter4JUtility;
 
 public class KSOOonYFinanceTwitterAccount{
