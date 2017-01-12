@@ -10,7 +10,7 @@ public final class NBAAllStarTwitterVotingUtility {
 					"Trey Burke", "Jason Smith", "Tomas Satoransky"};
 	public static final String [] WESTERN_CONFERENCE_PLAYERS = new String []
 			{"Trevor Ariza", "Zaza Pachulia"};
-	public static final String HASH_TAG = " #NBA Vote";
+	public static final String HASH_TAG = " #NBAVote";
 	
 	public static ArrayList<String> get2017EasternConferenceTweets(){
 		ArrayList<String> tweets = new ArrayList<String>();
