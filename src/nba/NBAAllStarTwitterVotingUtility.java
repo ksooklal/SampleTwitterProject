@@ -7,7 +7,7 @@ import Twitter4J.Twitter4JUtility;
 public final class NBAAllStarTwitterVotingUtility {	
 	public static final String [] EASTERN_CONFERENCE_PLAYERS = new String [] 
 			{"John Wall", "Bradley Beal", "Marcin Gortat", "Otto Porter", "Markieff Morris", "Kelly Oubre",
-			 "Jason Smith", "Tomas Satoransky"};
+			 "Jason Smith", "Tomas Satoransky", "Jodie Meeks"};
 	public static final String [] WESTERN_CONFERENCE_PLAYERS = new String []
 			{"Trevor Ariza"};
 	public static final String HASH_TAG = " #NBAVote";
