@@ -10,12 +10,12 @@ public final class NBAAllStarTwitterVotingUtility {
 			 "Jason Smith", "Tomas Satoransky", "Jodie Meeks"};
 	public static final String [] WESTERN_CONFERENCE_PLAYERS = new String []
 			{"Trevor Ariza"};
-	public static final String HASH_TAG = " #NBAVote";
+	public static final String HASH_TAG_2017 = " #NBAVote";
 	
 	public static ArrayList<String> get2017EasternConferenceTweets(){
 		ArrayList<String> tweets = new ArrayList<String>();
 		for (String player: EASTERN_CONFERENCE_PLAYERS){
-			tweets.add(player + HASH_TAG);
+			tweets.add(player + HASH_TAG_2017);
 		}
 		return tweets;
 	}
@@ -23,7 +23,7 @@ public final class NBAAllStarTwitterVotingUtility {
 	public static ArrayList<String> get2017WesternConferenceTweets(){
 		ArrayList<String> tweets = new ArrayList<String>();
 		for (String player: WESTERN_CONFERENCE_PLAYERS){
-			tweets.add(player + HASH_TAG);
+			tweets.add(player + HASH_TAG_2017);
 		}
 		return tweets;
 	}
