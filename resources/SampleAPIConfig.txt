@@ -4,8 +4,8 @@ Should look like this
 kristiansooklal:
 consumer key
 consumer secret
-api key
-api secret
+api access token
+api access token secret
 ...
 ...
 ...
