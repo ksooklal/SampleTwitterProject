@@ -6,6 +6,8 @@ consumer key
 consumer secret
 api access token
 api access token secret
-...
-...
-...
+wizardsbestfan:
+consumer key
+consumer secret
+api access token
+api access token secret
