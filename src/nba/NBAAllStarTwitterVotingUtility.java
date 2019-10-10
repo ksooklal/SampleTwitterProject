@@ -5,10 +5,10 @@ import Twitter4J.Twitter4JUtility;
 
 public final class NBAAllStarTwitterVotingUtility {	
 	private static final String [] EASTERN_CONFERENCE_PLAYERS = new String []
-			{"John Wall", "Bradley Beal", "Marcin Gortat", "Otto Porter", "Markieff Morris", "Kelly Oubre",
-			 "Jason Smith", "Tomas Satoransky"};
+			{"John Wall", "Bradley Beal", "Rui Hachimura", "Thomas Bryant", "Troy Brown", 
+			 "David Bertans", "Justin Anderson"};
 	private static final String [] WESTERN_CONFERENCE_PLAYERS = new String []
-			{"Trevor Ariza", "Jared Dudley"};
+			{"Trevor Ariza", "Jared Dudley", "Jake Layman"};
 	private static final String HASH_TAG_2018 = " #NBAVote";
 	
 	private static ArrayList<String> get2018EasternConferenceTweets(){
